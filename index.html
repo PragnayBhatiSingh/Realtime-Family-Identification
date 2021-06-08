@@ -1,0 +1,45 @@
+<html>
+
+<head>
+    <title>Realtime Gender Identification</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Indie+Flower&display=swap"
+        rel="stylesheet">
+</head>
+
+<body background="background.jpg">
+    <center>
+        <div id="upper_part">
+            <h2>Realtime Gender Identification</h2>
+            <hr><br>
+            <div class="heading_div2">
+                <img class="mx-3" id="male" src="male.png" width="50px" height="50px"> |
+                <img class="mx-3" id="female" src="female.png" width="50px" height="50px">
+                <br>
+                <i class="mx-3">Male</i>
+                <i class="mx-3">Female</i>
+            </div>
+        </div>
+        <div id="middle_part">
+            <div id="gender_name" class="col-md-6 col-sm-6">
+                <p class="btn btn-light  result_para_tag">Object :
+                    <span id="result_gender_name"></span>
+                </p>
+            </div>
+            <div class="col-md-6 col-sm-6">
+                <p class="btn btn-light  result_para_tag">Accuracy :
+                    <span id="result_gender_accuracy"></span>
+                </p>
+            </div>
+        </div>
+        </div>
+    </center>
+    <script src="main.js"></script>
+</body>
+
+</html>

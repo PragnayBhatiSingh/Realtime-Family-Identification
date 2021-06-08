@@ -1,0 +1,40 @@
+body {
+    font-family: 'Architects Daughter', cursive;
+
+}
+
+#upper_part {
+    background-color: rgb(0, 162, 255);
+    border-radius: 15px;
+    width: 95%;
+}
+
+hr {
+    background-color: azure !important;
+    width: 85%;
+}
+
+.heading_div2 {
+    font-size: 22px;
+
+}
+
+i {
+    visibility: hidden;
+}
+
+.heading_div2:hover i {
+    visibility: visible;
+}
+
+.result_para_tag {
+    font-size: 20px;
+    box-shadow: 5px 5px 5px gray;
+    border-bottom: chocolate;
+    border-bottom: 5px solid #fea67b;
+}
+
+#gender_name{
+    float:left;
+    margin-left:100px;
+}
