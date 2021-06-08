@@ -32,9 +32,23 @@ i {
     box-shadow: 5px 5px 5px gray;
     border-bottom: chocolate;
     border-bottom: 5px solid #fea67b;
+    margin-top:320px;
 }
 
-#gender_name{
-    float:left;
-    margin-left:100px;
+.footer {
+    width: 100%;
+
+    font-size: 27px;
+    background-color: gainsboro;
+    text-align: center;
+    bottom: 0;
+    position: fixed;
+    line-height: 2;
+}
+
+canvas {
+    border: 5px dashed black;
+    margin-top: 120px;
+    border-radius: 30px;
+    box-shadow: 7px 7px 36px rgb(78, 78, 78);
 }
